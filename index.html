@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>status</title>
+	
+</head>
+<body>
+	<textarea id="status"></textarea>
+	<button  onclick="share()">share</button>
+
+	<p id="wadah"></p>
+
+	<script type="text/javascript">
+		
+		function share() {
+			var status = document.getElementById('status').value
+			console.log(status)
+			document.getElementById("wadah").innerHTML= status
+
+		}
+	</script>
+
+</body>
+</html>
